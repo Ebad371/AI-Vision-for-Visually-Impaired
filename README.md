@@ -1,6 +1,6 @@
-# image_flutter
+# AI VISION 
 
-A new Flutter project.
+An AI powered Flutter mobile app which uses deep learning to predict the surroundings and help the partial visually impaired with AI voice.
 
 ## Getting Started
 
