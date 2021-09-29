@@ -165,24 +165,22 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton:
           Column(mainAxisAlignment: MainAxisAlignment.end, children: [
         FloatingActionButton(
-          backgroundColor: Colors.yellow,
-          child: Icon(
-            Icons.image,
-            color: Colors.black,
-            size: 40.0,
-          ),
-          onPressed: () {
-            chooseImageFromCamera();
-          },
-          heroTag: null,
-        ),
+            backgroundColor: Colors.yellow,
+            child: Icon(
+              Icons.camera_alt_outlined,
+              color: Colors.black,
+              size: 50.0,
+            ),
+            onPressed: () {
+              chooseImageFromCamera();
+            }),
         SizedBox(
           height: 10,
         ),
         FloatingActionButton(
             backgroundColor: Colors.yellow,
             child: Icon(
-              Icons.volume_down_outlined,
+              Icons.volume_up_outlined,
               color: Colors.black,
               size: 50.0,
             ),
@@ -195,7 +193,7 @@ class _MyHomePageState extends State<MyHomePage> {
         FloatingActionButton(
             backgroundColor: Colors.yellow,
             child: Icon(
-              Icons.volume_mute_outlined,
+              Icons.volume_off_outlined,
               color: Colors.black,
               size: 50.0,
             ),
