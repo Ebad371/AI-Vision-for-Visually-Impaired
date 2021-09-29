@@ -228,8 +228,8 @@ class _MyHomePageState extends State<MyHomePage> {
                 padding: const EdgeInsets.only(top: 28.0),
                 child: Card(
                   color: Colors.transparent,
-                  shadowColor: Colors.brown,
-                  elevation: 30.0,
+                  shadowColor: Colors.white,
+                  elevation: 20.0,
                   clipBehavior: Clip.antiAlias,
                   shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(20.0)),
